@@ -6,7 +6,6 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.github.repo.R
 import com.github.repo.RecyclerViewAdapter
@@ -17,7 +16,6 @@ import com.github.repo.others.Status
 import com.github.repo.retrofit.GetGihubIssueCallback
 import com.github.repo.viewmodel.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
-
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity(), GetGihubIssueCallback {

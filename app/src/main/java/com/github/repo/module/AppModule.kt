@@ -1,15 +1,12 @@
 package com.github.repo.module
 
-import android.provider.SyncStateContract
 import com.github.repo.BuildConfig
 import com.github.repo.retrofit.GitHubService
 import com.github.repo.retrofit.GithubHelper
 import com.github.repo.retrofit.GithubHelperImpl
-import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.components.ActivityComponent
 import dagger.hilt.android.components.ApplicationComponent
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
