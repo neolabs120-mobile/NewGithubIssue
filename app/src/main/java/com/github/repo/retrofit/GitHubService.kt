@@ -14,7 +14,7 @@ interface GitHubService {
 }
 
 interface GithubHelper {
-    suspend fun getEmployees(repo: String, org: String): Response<List<Example>>
+    suspend fun getgithubrepos(repo: String, org: String): Response<List<Example>>
 }
 
 interface GetGihubIssueCallback {

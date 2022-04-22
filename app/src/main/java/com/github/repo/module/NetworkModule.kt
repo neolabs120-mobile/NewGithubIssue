@@ -16,7 +16,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(ApplicationComponent::class)
-class AppModule{
+class NetworkModule{
 
     @Provides
     fun provideBaseUrl() = "https://api.github.com"
